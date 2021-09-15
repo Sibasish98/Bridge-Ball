@@ -18,8 +18,8 @@ public class menuHelper : MonoBehaviour {
 	void Start () 
 	{
 		//for 2 buttons
-		ratei = rate.GetComponent<Image>();
-		sharei = share.GetComponent<Image> ();
+		//ratei = rate.GetComponent<Image>();
+		//sharei = share.GetComponent<Image> ();
 
 
 		/*if (helpOpened) {
@@ -40,11 +40,11 @@ public class menuHelper : MonoBehaviour {
 				title.enabled = true;
 				//for rate and share button
 				rate.enabled = true;
-				ratei.enabled = true;
-				rateIcon.enabled = true;
-				share.enabled = true;
-				sharei.enabled = true;
-				shareIcon.enabled = true;
+				//ratei.enabled = true;
+				//rateIcon.enabled = true;
+				//share.enabled = true;
+				//sharei.enabled = true;
+				//shareIcon.enabled = true;
 			}
 		}
 	}
@@ -56,10 +56,10 @@ public class menuHelper : MonoBehaviour {
 		title.enabled = false;
 		//for rate and share button
 		rate.enabled = false;
-		ratei.enabled = false;
+		//ratei.enabled = false;
 		rateIcon.enabled = false;
-		share.enabled = false;
-		sharei.enabled = false;
-		shareIcon.enabled = false;
+		//share.enabled = false;
+		//sharei.enabled = false;
+		//shareIcon.enabled = false;
     }
 }

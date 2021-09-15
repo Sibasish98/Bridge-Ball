@@ -27,7 +27,7 @@ public class playerr : MonoBehaviour {
 
 	void Start()
 	{
-		adm = GameObject.FindGameObjectWithTag ("admanager").GetComponent<adManagerr> ();
+		//adm = GameObject.FindGameObjectWithTag ("admanager").GetComponent<adManagerr> ();
 		//this.GetComponent<AudioSource> ().Play ();
 		gameAudio = GameObject.FindGameObjectWithTag("gamemusic");
 		//menuAudio = GameObject.FindGameObjectWithTag("menumusic");
@@ -51,9 +51,9 @@ public class playerr : MonoBehaviour {
 				ttimer = ttimer + Time.deltaTime;
 			if (gameOT && ttimer > 0.7f) 
 		{
-			if (adm.ia.IsLoaded ()) {
-				adm.ia.Show ();
-			}
+			//if (adm.ia.IsLoaded ()) {
+				//adm.ia.Show ();
+			//}
 				backGp.enabled = true;
 				reButton.enabled = true;
 				restartt.interactable = true;
@@ -83,7 +83,7 @@ public class playerr : MonoBehaviour {
 	{
 		gameAudio.GetComponent<AudioSource> ().Stop ();
 		gameAudio.GetComponent<AudioSource> ().Play();
-		adm.RequestInterstatial ();
+		//adm.RequestInterstatial ();
 		SceneManager.LoadScene ("main");
 	}
 	public void menu()
@@ -91,7 +91,7 @@ public class playerr : MonoBehaviour {
 		gameAudio.GetComponent<AudioSource> ().Stop ();
 		//menuAudio.GetComponent<AudioSource> ().Play ();
 		//GameObject.FindGameObjectWithTag ("admanager").GetComponent<adManagerr> ().RequestBanner();
-		adm.RequestInterstatial ();
+		//adm.RequestInterstatial ();
 		SceneManager.LoadScene ("menu");
 	}
 	void handleScore()

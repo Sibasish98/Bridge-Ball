@@ -9,13 +9,13 @@ public class adManagerr : MonoBehaviour {
 	bool first = false;
 	// Use this for initialization
 	void Start () {
-		DontDestroyOnLoad (this);
+		//DontDestroyOnLoad (this);
 //		if (!first)
-		MobileAds.Initialize ("ca");
-		Debug.Log (" first "+first);
-		first = true;
-		RequestBanner ();
-		RequestInterstatial ();
+		//MobileAds.Initialize ("ca");
+		//Debug.Log (" first "+first);
+		//first = true;
+		//RequestBanner ();
+		//RequestInterstatial ();
 
 
 	}
@@ -34,20 +34,20 @@ public class adManagerr : MonoBehaviour {
 	private void RequestBanner()
 	{
 		#if UNITY_ANDROID
-		string adUnitId = "ca";
+		//string adUnitId = "ca";
 		#else
 		string adUnitId = "unexpected_platform";
 		#endif
 
 		// Create a 320x50 banner at the top of the screen.
-		bv = new BannerView(adUnitId, AdSize.Banner, AdPosition.Bottom);
+		//bv = new BannerView(adUnitId, AdSize.Banner, AdPosition.Bottom);
 		// Create an empty ad request.
-		AdRequest request = new AdRequest.Builder().Build();
-		List<string> ls=request.TestDevices ;
-		Debug.Log ("device : " + ls.Count);
+		//AdRequest request = new AdRequest.Builder().Build();
+		//List<string> ls=request.TestDevices ;
+		//Debug.Log ("device : " + ls.Count);
 		// Load the banner with the request.
 
-		bv.LoadAd(request);
+		//bv.LoadAd(request);
 	}
 	public void RequestInterstatial()
 		{
@@ -60,17 +60,17 @@ public class adManagerr : MonoBehaviour {
 		#endif
 
 		// Create a 320x50 banner at the top of the screen.
-		ia = new InterstitialAd (adUnitId);
+		//ia = new InterstitialAd (adUnitId);
 		// Create an empty ad request.
-		AdRequest request = new AdRequest.Builder().Build();
+		//AdRequest request = new AdRequest.Builder().Build();
 
 		// Load the banner with the request.
-		ia.LoadAd(request);
+		//ia.LoadAd(request);
 		}
 		public void onPlayButtonPresed()
 	{
-		bv.Hide ();
-		bv.Destroy ();
-		Debug.Log ("button pressed");
+		//bv.Hide ();
+		//bv.Destroy ();
+		//Debug.Log ("button pressed");
 	}
 }

@@ -64,11 +64,12 @@ public class ShareAndRate : MonoBehaviour {
 
 	public void RateUs()
 	{
-		#if UNITY_ANDROID
+		/*#if UNITY_ANDROID
 		Application.OpenURL("https://play.google.com/store/apps/details?id=com.snowflakes.bridgeball");
 		#elif UNITY_IPHONE
 		Application.OpenURL("itms-apps://itunes.apple.com/app/idYOUR_ID");
-		#endif
+		#endif*/
+		Application.Quit();
 	}
 
 }

@@ -11,12 +11,12 @@
     <file>Assets/Plugins/Android/com.android.support.support-media-compat-25.2.0.aar</file>
     <file>Assets/Plugins/Android/com.android.support.support-v4-25.2.0.aar</file>
     <file>Assets/Plugins/Android/com.google.android.gms.play-services-ads-11.8.0.aar</file>
-    <file>Assets/Plugins/Android/com.google.android.gms.play-services-ads-license-11.8.0</file>
+    <file>Assets/Plugins/Android/com.google.android.gms.play-services-ads-license-11.8.0.aar</file>
     <file>Assets/Plugins/Android/com.google.android.gms.play-services-ads-lite-11.8.0.aar</file>
-    <file>Assets/Plugins/Android/com.google.android.gms.play-services-ads-lite-license-11.8.0</file>
+    <file>Assets/Plugins/Android/com.google.android.gms.play-services-ads-lite-license-11.8.0.aar</file>
     <file>Assets/Plugins/Android/com.google.android.gms.play-services-basement-11.8.0.aar</file>
-    <file>Assets/Plugins/Android/com.google.android.gms.play-services-basement-license-11.8.0</file>
+    <file>Assets/Plugins/Android/com.google.android.gms.play-services-basement-license-11.8.0.aar</file>
     <file>Assets/Plugins/Android/com.google.android.gms.play-services-gass-11.8.0.aar</file>
-    <file>Assets/Plugins/Android/com.google.android.gms.play-services-gass-license-11.8.0</file>
+    <file>Assets/Plugins/Android/com.google.android.gms.play-services-gass-license-11.8.0.aar</file>
   </files>
 </dependencies>

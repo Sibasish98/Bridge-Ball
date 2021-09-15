@@ -4,8 +4,9 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: gr
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: _EMISSION
@@ -72,5 +73,5 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.38106316, g: 0.2991147, b: 0.14036447, a: 0.003921569}
-    - _EmissionColor: {r: 0.36801326, g: 0.28354642, b: 0.13876185, a: 0.003921569}
+    - _Color: {r: 0.22731312, g: 0.16571705, b: 0.18560044, a: 0.003921569}
+    - _EmissionColor: {r: 0.23312776, g: 0.16818386, b: 0.17643799, a: 0.003921569}

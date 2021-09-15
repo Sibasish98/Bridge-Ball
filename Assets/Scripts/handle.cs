@@ -107,6 +107,8 @@ public class handle : MonoBehaviour {
 		{
 			pauseButtonPress ();
 		}
+
+
 		handleInput ();
 		if (!activee && !gamePaused) {
 			controlSpeed += 0.09f;
@@ -137,6 +139,15 @@ public class handle : MonoBehaviour {
 					direction = false;
 				}
 			}
+		}
+		//keyboard control
+		if (Input.GetKeyDown(KeyCode.LeftArrow))
+		{
+			direction = false;
+		}
+		else if (Input.GetKeyDown(KeyCode.RightArrow))
+		{
+			direction = true;
 		}
 	}
 	//called when pause button is clicked
