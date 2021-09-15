@@ -7,7 +7,7 @@ This game is simple to play but difficult to master and it requires speed and co
 **How to play : -**
 The ball will be rolling forward continuously and you need to control the rotating bridge in order to prevent the ball from falling. To rotate the bridge anti clockwise you need to tap left and to rotate it to clockwise you have to tap right. The speed of the ball and rotating bridge will increase gradually as you score more.
 
-**You can try it by the using the appropriate build file in the above repository (Android,Windows, Linux, Web**
+**You can try it by the using the appropriate build file in the above repository (Android,Windows, Linux, Web)**
 
 **Here are some screenshots : )**
 
